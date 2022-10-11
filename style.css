@@ -1,0 +1,32 @@
+
+body {
+  font-family: Arial;
+}
+
+.point {
+  fill: seagreen;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+
+#leftColumn {
+  width: 60%;
+}
+
+#rightColumn {
+  width: 40%;
+}
+
+
+.tooltip {
+  position: absolute;
+  background-color: grey;
+  border:  solid;
+  border-width: 2px;
+  border-radius: 5px;
+  padding: 5px;
+}
