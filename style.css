@@ -5,7 +5,14 @@ body {
 
 .point {
   fill: seagreen;
+  stroke: darkgreen;
+  stroke-width: 0px;
 }
+
+.point:hover {
+  fill: limegreen;
+}
+
 
 .flex-container {
   display: flex;

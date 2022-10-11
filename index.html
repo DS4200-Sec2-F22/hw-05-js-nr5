@@ -3,11 +3,49 @@
 
 <head>
     <meta charset=utf-8/>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="js/d3.v6.1.1/d3.min.js"></script>
+    <title>hw-05</title>
 </head>
-
-
 <body>
+    <h1>hw-05: Interactive Graph with D3</h1>
+    <div class="flex-container">
+        <div id="leftColumn">
+            <div id="scatterVis"></div>
+        </div>
+        <div id="rightColumn">
+            <div id=lastClicked></div>
+            <!--selection menus for x, y coordinates-->
+            <label for="x-coordinate">Select the x coordinate for the point you want to add.</label>
+                <select name="x-coordinate" id="x-coordinate">
+                    <option value=1>1</option>
+                    <option value=2>2</option>
+                    <option value=3>3</option>
+                    <option value=4>4</option>
+                    <option value=5>5</option>
+                    <option value=6>6</option>
+                    <option value=7>7</option>
+                    <option value=8>8</option>
+                    <option value=9>9</option>
+                </select><br><br>
+            <label for="y-coordinate">Select the y coordinate for the point you want to add.</label>
+                <select name="y-coordinate" id="y-coordinate">
+                    <option value=1>1</option>
+                    <option value=2>2</option>
+                    <option value=3>3</option>
+                    <option value=4>4</option>
+                    <option value=5>5</option>
+                    <option value=6>6</option>
+                    <option value=7>7</option>
+                    <option value=8>8</option>
+                    <option value=9>9</option>
+                </select><br><br>
+            <button type = "button" id = "addPointButton">Add point</button>
+        </div>
+    </div>
 
+
+    <script type="text/javascript" src="main.js"></script>
 
 </body>
 
