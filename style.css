@@ -3,6 +3,10 @@ body {
   font-family: Arial;
 }
 
+h1, h2 {
+  text-align: center;
+}
+
 .point {
   fill: seagreen;
   stroke: darkgreen;
@@ -13,6 +17,13 @@ body {
   fill: limegreen;
 }
 
+.bar {
+  fill: skyblue;
+}
+
+.bar:hover {
+  fill: cadetblue;
+}
 
 .flex-container {
   display: flex;
@@ -28,10 +39,9 @@ body {
   width: 40%;
 }
 
-
 .tooltip {
   position: absolute;
-  background-color: grey;
+  background-color: lightblue;
   border:  solid;
   border-width: 2px;
   border-radius: 5px;
